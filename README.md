@@ -1,6 +1,6 @@
 # npmtest-sitemap
 
-#### test coverage for  [sitemap (v1.12.0)](https://github.com/ekalinin/sitemap.js#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-sitemap.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-sitemap) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-sitemap.svg)](https://travis-ci.org/npmtest/node-npmtest-sitemap)
+#### basic test coverage for  [sitemap (v1.12.0)](https://github.com/ekalinin/sitemap.js#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-sitemap.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-sitemap) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-sitemap.svg)](https://travis-ci.org/npmtest/node-npmtest-sitemap)
 
 #### Sitemap-generating framework
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-sitemap/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-sitemap/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-sitemap/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-sitemap/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-sitemap/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-sitemap/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-sitemap/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-sitemap/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-sitemap/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-sitemap/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-sitemap/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-sitemap/build/coverage.html/index.html)
 
@@ -76,7 +76,8 @@
     "scripts": {
         "test": "./node_modules/expresso/bin/expresso tests/sitemap.test.js"
     },
-    "version": "1.12.0"
+    "version": "1.12.0",
+    "bin": {}
 }
 ```
 
